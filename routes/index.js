@@ -5,6 +5,7 @@ const homeController = require('../controllers/home_controller')
 console.log('Testing routes');
 
 router.get('/', homeController.home);
-
+router.use('/users', require('./users'));
+router.use('/users', require('./new'));
 
 module.exports = router;
