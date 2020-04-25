@@ -18,5 +18,8 @@ const userSchema = new mongoose.Schema({
 });
 
 
+mongoose.set('useNewUrlParser', true);
+mongoose.set('useFindAndModify', false);
+mongoose.set('useCreateIndex', true);
 const User = mongoose.model('User', userSchema);
 module.exports = User;
