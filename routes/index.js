@@ -7,5 +7,6 @@ console.log('Testing routes');
 router.get('/', homeController.home);
 router.use('/users', require('./users'));
 router.use('/users', require('./new'));
+router.use('/posts', require('./posts'));
 
 module.exports = router;

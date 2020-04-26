@@ -10,16 +10,21 @@
         <%= title %>
     </title>
     <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <%- style %>
 </head>
 
 <body>
     <%- include('_header'); %>
-        <%- body %>
-            <%- include( '_footer'); %>
+        <main id="layout-main">
+            <%- body %>
+        </main>
+        <%- include( '_footer'); %>
 
 
-                <%- script %>
+            <%- script %>
 </body>
 
 </html>
