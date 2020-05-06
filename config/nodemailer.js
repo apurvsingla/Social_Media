@@ -8,8 +8,8 @@ let transporter = nodemailer.createTransport({
     port: 587,
     secure: true,
     auth: {
-        user: 'socialplatform123',
-        pass: 'Social@123'
+        user: 'enter your username',
+        pass: 'enter your password'
     }
 });
 
