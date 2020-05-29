@@ -1,5 +1,12 @@
 const express = require('express');
+
+//for deployment
+const env = require('./config/enviornment');
+const logger = require('morgan');
+
+
 const app = express();
+require('./config/view-helper')(app);
 const cookieParser = require('cookie-parser');
 const port = 8000;
 const expressLayouts = require('express-ejs-layouts');
@@ -10,7 +17,7 @@ const passport = require('passport');
 const passportLocal = require('./config/passport-local-strategy');
 const passportJWT = require('./config/passport-jwt-strategy');
 const passportGoogle = require('./config/passport-google-oauth-strategy');
-const rdp = require('node-rdpjs');
+
 
 
 const MongoStore = require('connect-mongo')(session);
@@ -20,13 +27,25 @@ const customMware = require('./config/middleware');
 // file upload
 const multer = require('multer');
 
-app.use(sassMiddleware({
-    src: './assets/scss',
-    dest: './assets/css',
-    debug: false,
-    outputStyle: 'extended',
-    prefix: '/css'
-}));
+//chat server and it should be unique
+const chatServer = require('http').Server(app);
+const chatSockets = require('./config/chat_sockets').chatSockets(chatServer);
+chatServer.listen(5000);
+console.log('chat server is listening on port 5000');
+
+// for deployment
+const path = require('path');
+if (env.name == 'development') {
+    app.use(sassMiddleware({
+        src: path.join(__dirname, env.asset_path, 'scss'),
+        dest: path.join(__dirname, env.asset_path, 'css'),
+        debug: true,
+        outputStyle: 'extended',
+        prefix: '/css'
+    }));
+}
+//for deployment
+app.use(express.static(env.asset_path));
 //accesing form data with this middleware
 app.use(express.urlencoded({ extended: true }));
 
@@ -39,6 +58,8 @@ app.use(express.static('./assets'));
 
 //make the uploads path available to the browser
 app.use('/uploads', express.static(__dirname + '/uploads'));
+
+app.use(logger(env.morgan.mode, env.morgan.options))
 
 app.use(expressLayouts);
 
@@ -57,7 +78,7 @@ app.set('views', './views');
 app.use(session({
     name: 'Social',
     // Todo change the secret before deployment in production node
-    secret: 'blahsomething',
+    secret: env.session_cookie_key,
     saveUninitialized: false,
     resave: false,
     cookie: {

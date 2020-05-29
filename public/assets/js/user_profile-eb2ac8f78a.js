@@ -1,0 +1,1 @@
+let openFile=function(e){let t=e.target,l=new FileReader;l.onload=function(){let e=l.result;document.getElementById("output").src=e},l.readAsDataURL(t.files[0])};$("#cancel").click(e=>{e.preventDefault(),$("#output").removeAttr("src"),$("#file").val("")});
