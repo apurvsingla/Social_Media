@@ -59,4 +59,4 @@ const production = {
     }
 }
 
-module.exports = eval(process.env.SOCIAL_ENVIORNMENT) == undefined ? development : eval(process.env.SOCIAL_ENVIORNMENT);
+module.exports = eval(process.env.CODEIAL_ENVIRONMENT) == undefined ? development : eval(process.env.CODEIAL_ENVIRONMENT);

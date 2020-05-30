@@ -35,6 +35,7 @@ console.log('chat server is listening on port 5000');
 
 // for deployment
 const path = require('path');
+
 if (env.name == 'development') {
     app.use(sassMiddleware({
         src: path.join(__dirname, env.asset_path, 'scss'),
@@ -77,7 +78,6 @@ app.set('views', './views');
 // mongo store is used to store the session cookie in the db
 app.use(session({
     name: 'Social',
-    // Todo change the secret before deployment in production node
     secret: env.session_cookie_key,
     saveUninitialized: false,
     resave: false,

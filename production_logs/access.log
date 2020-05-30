@@ -73,3 +73,74 @@
 ::1 - - [29/May/2020:05:35:11 +0000] "GET /css/header-87bf6163df.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
 ::1 - - [29/May/2020:05:35:11 +0000] "GET /css/layout-e458e3ed8f.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
 ::1 - - [29/May/2020:05:35:11 +0000] "GET /css/header-87bf6163df.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::ffff:127.0.0.1 - - [29/May/2020:06:34:18 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::ffff:127.0.0.1 - - [29/May/2020:06:34:18 +0000] "GET /css/header-87bf6163df.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::ffff:127.0.0.1 - - [29/May/2020:06:34:18 +0000] "GET /css/layout-e458e3ed8f.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::ffff:127.0.0.1 - - [29/May/2020:06:34:18 +0000] "GET /css/layout-e458e3ed8f.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::ffff:127.0.0.1 - - [29/May/2020:06:34:18 +0000] "GET /css/header-87bf6163df.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::ffff:127.0.0.1 - - [29/May/2020:06:34:20 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::ffff:127.0.0.1 - - [29/May/2020:06:34:20 +0000] "GET /css/layout-e458e3ed8f.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::ffff:127.0.0.1 - - [29/May/2020:06:34:20 +0000] "GET /css/header-87bf6163df.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::1 - - [29/May/2020:06:34:20 +0000] "GET /css/layout-e458e3ed8f.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::1 - - [29/May/2020:06:34:20 +0000] "GET /css/header-87bf6163df.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::ffff:127.0.0.1 - - [29/May/2020:09:55:08 +0000] "GET / HTTP/1.1" 200 3405 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::ffff:127.0.0.1 - - [29/May/2020:09:55:09 +0000] "GET /css/layout-e458e3ed8f.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::ffff:127.0.0.1 - - [29/May/2020:09:55:09 +0000] "GET /css/header-87bf6163df.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::ffff:127.0.0.1 - - [29/May/2020:09:55:10 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::ffff:127.0.0.1 - - [29/May/2020:09:55:12 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::ffff:127.0.0.1 - - [29/May/2020:09:55:12 +0000] "GET /css/layout-e458e3ed8f.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::ffff:127.0.0.1 - - [29/May/2020:09:55:12 +0000] "GET /css/header-87bf6163df.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::ffff:127.0.0.1 - - [29/May/2020:09:55:13 +0000] "GET /css/layout-e458e3ed8f.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::1 - - [29/May/2020:09:55:13 +0000] "GET /css/header-87bf6163df.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::1 - - [29/May/2020:09:55:37 +0000] "GET / HTTP/1.1" 200 3394 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::1 - - [29/May/2020:09:55:37 +0000] "GET /css/layout-e458e3ed8f.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::1 - - [29/May/2020:09:55:37 +0000] "GET /css/layout-e458e3ed8f.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::1 - - [29/May/2020:09:55:45 +0000] "GET / HTTP/1.1" 200 3405 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::1 - - [29/May/2020:09:55:46 +0000] "GET /css/layout-e458e3ed8f.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::1 - - [29/May/2020:09:55:46 +0000] "GET /css/header-87bf6163df.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::1 - - [29/May/2020:09:55:46 +0000] "GET /css/header-87bf6163df.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::1 - - [29/May/2020:09:55:46 +0000] "GET /css/layout-e458e3ed8f.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::1 - - [29/May/2020:09:58:58 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::1 - - [29/May/2020:09:58:58 +0000] "GET /css/layout-e458e3ed8f.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::1 - - [29/May/2020:09:58:58 +0000] "GET /css/header-87bf6163df.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::1 - - [29/May/2020:09:58:58 +0000] "GET /css/header-87bf6163df.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+::1 - - [29/May/2020:09:58:59 +0000] "GET /css/layout-e458e3ed8f.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+[0mGET / [32m200[0m 209.785 ms - 5930[0m
+[0mGET / [36m304[0m 87.147 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 9.757 ms - 2613[0m
+[0mGET /users/css/header.css [33m404[0m 9.648 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 8.912 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 4.245 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 5.064 ms - 159[0m
+[0mGET /users/sign-in [36m304[0m 8.178 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 3.338 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 5.516 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 4.879 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 5.823 ms - 159[0m
+[0mPOST /users/create-session [36m302[0m 50.668 ms - 46[0m
+[0mGET / [32m200[0m 70.766 ms - 8433[0m
+[0mGET / [32m200[0m 34.003 ms - 8123[0m
+[0mGET / [32m200[0m 28.974 ms - 8123[0m
+[0mGET /users/sign-out [36m302[0m 6.057 ms - 46[0m
+[0mGET / [32m200[0m 26.245 ms - 6238[0m
+[0mGET / [32m200[0m 76.167 ms - 5930[0m
+[0mGET / [32m200[0m 644.597 ms - 5930[0m
+[0mGET /favicon.ico [33m404[0m 65.382 ms - 150[0m
+[0mGET / [36m304[0m 71.755 ms - -[0m
+[0mGET / [36m304[0m 38.573 ms - -[0m
+[0mGET / [36m304[0m 32.169 ms - -[0m
+[0mGET / [36m304[0m 64.883 ms - -[0m
+[0mGET / [36m304[0m 65.102 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 26.934 ms - 2613[0m
+[0mGET /users/css/layout.css [33m404[0m 9.874 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 10.024 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 11.626 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 3.607 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 4.466 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 3.084 ms - 159[0m
+[0mGET /users/sign-in [36m304[0m 8.185 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 4.057 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 4.986 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 6.649 ms - 159[0m
+[0mPOST /users/create-session [36m302[0m 42.367 ms - 46[0m
+[0mGET / [32m200[0m 55.926 ms - 8433[0m
